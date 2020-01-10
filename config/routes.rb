@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
 
+  resources :docs
+
   get 'comments/index'
 
   get 'comments/new'
